@@ -9,3 +9,5 @@ Functionality of code:
 <li>Displays current houses for sale in a select suburb on a choropleth map within the suburb boudary</li>
 <li>Generates boxplot of suburb house prices from 2005 to 2019 for a select suburb</li>
 <li>Generates list of all Sydney suburbs and whether they have positive or negative growth rates</li>
+
+Refer to old files or supplementary file for some of my older work that led up to the final handover. 
