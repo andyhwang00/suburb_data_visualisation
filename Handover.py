@@ -241,7 +241,7 @@ def mark_listings(suburb):
         marker = folium.Marker(location = location, popup = popup)
         marker.add_to(m)
         
-    index = df_suburbs.loc[df_suburbs['cleaned_suburbs'] == 'Eastwood'].index[0]
+    index = df_suburbs.loc[df_suburbs['cleaned_suburbs'] == suburb].index[0]
     suburb1 = df_suburbs['suburbs'].at[index]
         
     for row in df3.iterrows():
